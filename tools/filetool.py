@@ -14,6 +14,7 @@ from matplotlib.pyplot import axis
 import urllib3
 import pandas as pd
 import os
+import subprocess
 import sys
 from shutil import copyfile
 from sys import exit
@@ -37,19 +38,23 @@ def download(download_url, save_file):
 
 
 def wget(download_url, save_file, verbos=False):
-    process = os.popen('which wget') # return file
+    process = os.popen('where wget') # return file
+#     command = ["wget.exe", "-i", link, "-c", "-nc", '"K:\Folder\of\Saved\videos"']
+#     print(link)
+#     output = subprocess.Popen(command)
     output = process.read()
     if output =='':
         print('wget not installed')
     else:
         if verbos:
-            cmd = 'wget ' + download_url + ' -O ' + save_file
+            cmd = 'wget -i ' + download_url + ' -c -nc -O ' + save_file
         else:
-            cmd = 'wget -q ' + download_url + ' -O ' + save_file
+            cmd = 'wget -q -i ' + download_url + ' -c -nc -O ' + save_file
         print (cmd)
         process = os.popen(cmd)
         output = process.read()
     process.close()
+    
 
 def convert_DF_dateTime(inputdf):
     """[Covert unisprot csv records datatime]

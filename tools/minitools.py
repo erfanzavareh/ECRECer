@@ -71,7 +71,7 @@ def specific_ecs(ecstr):
                 continue
                 
         reslist +=[ec]
-    return ','.join(reslist)
+    return '; '.join(reslist)
 
 #format ec
 def format_ec(ecstr):

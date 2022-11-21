@@ -2,7 +2,7 @@
 Author: Zhenkun Shi
 Date: 2020-06-05 05:10:25
 LastEditors: Zhenkun Shi
-LastEditTime: 2022-11-17 13:23:12
+LastEditTime: 2022-11-04 12:09:00
 FilePath: /DMLF/config.py
 Description: 
 
@@ -13,14 +13,14 @@ import os
 
 
 # 1. 定义数据目录
-ROOTDIR= f'{os.getcwd()}/'
-DATADIR = ROOTDIR +'data/'
-RESULTSDIR = ROOTDIR +'results/'
+ROOTDIR= f'{os.getcwd()}\\'
+DATADIR = ROOTDIR +'data\\'
+RESULTSDIR = ROOTDIR +'results\\'
 MODELDIR = ROOTDIR +'model'
-TEMPDIR =ROOTDIR +'tmp/'
-DIR_UNIPROT = DATADIR + 'uniprot/'
-DIR_DATASETS = DATADIR +'datasets/'
-DIR_FEATURES = DATADIR + 'featureBank/'
+TEMPDIR =ROOTDIR +'tmp\\'
+DIR_UNIPROT = DATADIR + 'uniprot\\'
+DIR_DATASETS = DATADIR +'datasets\\'
+DIR_FEATURES = DATADIR + 'featureBank\\'
 
 
 #2.URL
@@ -47,42 +47,42 @@ FILE_FEATURE_ESM33 = DIR_FEATURES + 'embd_esm33.feather'
 FILE_FEATURE_ONEHOT = DIR_FEATURES + 'embd_onehot.feather'
 
 
-FILE_TASK1_TRAIN = DIR_DATASETS + 'task1/train.feather'
-FILE_TASK1_TEST_2019 = DIR_DATASETS + 'task1/test_2019.feather'
-FILE_TASK1_TEST_2020 = DIR_DATASETS + 'task1/test_2020.feather'
-FILE_TASK1_TEST_2021 = DIR_DATASETS + 'task1/test_2021.feather'
-FILE_TASK1_TEST_2022 = DIR_DATASETS + 'task1/test_2022.feather'
+FILE_TASK1_TRAIN = DIR_DATASETS + 'task1\\train.feather'
+FILE_TASK1_TEST_2019 = DIR_DATASETS + 'task1\\test_2019.feather'
+FILE_TASK1_TEST_2020 = DIR_DATASETS + 'task1\\test_2020.feather'
+FILE_TASK1_TEST_2021 = DIR_DATASETS + 'task1\\test_2021.feather'
+FILE_TASK1_TEST_2022 = DIR_DATASETS + 'task1\\test_2022.feather'
 
-FILE_TASK2_TRAIN = DIR_DATASETS + 'task2/train.feather'
-FILE_TASK2_TEST_2019 = DIR_DATASETS + 'task2/test_2019.feather'
-FILE_TASK2_TEST_2020 = DIR_DATASETS + 'task2/test_2020.feather'
-FILE_TASK2_TEST_2021 = DIR_DATASETS + 'task2/test_2021.feather'
-FILE_TASK2_TEST_2022 = DIR_DATASETS + 'task2/test_2022.feather'
+FILE_TASK2_TRAIN = DIR_DATASETS + 'task2\\train.feather'
+FILE_TASK2_TEST_2019 = DIR_DATASETS + 'task2\\test_2019.feather'
+FILE_TASK2_TEST_2020 = DIR_DATASETS + 'task2\\test_2020.feather'
+FILE_TASK2_TEST_2021 = DIR_DATASETS + 'task2\\test_2021.feather'
+FILE_TASK2_TEST_2022 = DIR_DATASETS + 'task2\\test_2022.feather'
 
 
-FILE_TASK3_TRAIN = DIR_DATASETS + 'task3/train.feather'
-FILE_TASK3_TEST_2019 = DIR_DATASETS + 'task3/test_2019.feather'
-FILE_TASK3_TEST_2020 = DIR_DATASETS + 'task3/test_2020.feather'
-FILE_TASK3_TEST_2021 = DIR_DATASETS + 'task3/test_2021.feather'
-FILE_TASK3_TEST_2022 = DIR_DATASETS + 'task3/test_2022.feather'
+FILE_TASK3_TRAIN = DIR_DATASETS + 'task3\\train.feather'
+FILE_TASK3_TEST_2019 = DIR_DATASETS + 'task3\\test_2019.feather'
+FILE_TASK3_TEST_2020 = DIR_DATASETS + 'task3\\test_2020.feather'
+FILE_TASK3_TEST_2021 = DIR_DATASETS + 'task3\\test_2021.feather'
+FILE_TASK3_TEST_2022 = DIR_DATASETS + 'task3\\test_2022.feather'
 
-FILE_TASK1_TRAIN_FASTA = DIR_DATASETS +'task1/train.fasta'
-FILE_TASK1_TEST_2019_FASTA = DIR_DATASETS +'task1/test_2019.fasta'
-FILE_TASK1_TEST_2020_FASTA = DIR_DATASETS +'task1/test_2020.fasta'
-FILE_TASK1_TEST_2021_FASTA = DIR_DATASETS +'task1/test_2021.fasta'
-FILE_TASK1_TEST_2022_FASTA = DIR_DATASETS +'task1/test_2022.fasta'
+FILE_TASK1_TRAIN_FASTA = DIR_DATASETS +'task1\\train.fasta'
+FILE_TASK1_TEST_2019_FASTA = DIR_DATASETS +'task1\\test_2019.fasta'
+FILE_TASK1_TEST_2020_FASTA = DIR_DATASETS +'task1\\test_2020.fasta'
+FILE_TASK1_TEST_2021_FASTA = DIR_DATASETS +'task1\\test_2021.fasta'
+FILE_TASK1_TEST_2022_FASTA = DIR_DATASETS +'task1\\test_2022.fasta'
 
-FILE_TASK2_TRAIN_FASTA = DIR_DATASETS +'task2/train.fasta'
-FILE_TASK2_TEST_2019_FASTA = DIR_DATASETS +'task2/test_2019.fasta'
-FILE_TASK2_TEST_2020_FASTA = DIR_DATASETS +'task2/test_2020.fasta'
-FILE_TASK2_TEST_2021_FASTA = DIR_DATASETS +'task2/test_2021.fasta'
-FILE_TASK2_TEST_2022_FASTA = DIR_DATASETS +'task2/test_2022.fasta'
+FILE_TASK2_TRAIN_FASTA = DIR_DATASETS +'task2\\train.fasta'
+FILE_TASK2_TEST_2019_FASTA = DIR_DATASETS +'task2\\test_2019.fasta'
+FILE_TASK2_TEST_2020_FASTA = DIR_DATASETS +'task2\\test_2020.fasta'
+FILE_TASK2_TEST_2021_FASTA = DIR_DATASETS +'task2\\test_2021.fasta'
+FILE_TASK2_TEST_2022_FASTA = DIR_DATASETS +'task2\\test_2022.fasta'
 
-FILE_TASK3_TRAIN_FASTA = DIR_DATASETS +'task3/train.fasta'
-FILE_TASK3_TEST_2019_FASTA = DIR_DATASETS +'task3/test_2019.fasta'
-FILE_TASK3_TEST_2020_FASTA = DIR_DATASETS +'task3/test_2020.fasta'
-FILE_TASK3_TEST_2021_FASTA = DIR_DATASETS +'task3/test_2021.fasta'
-FILE_TASK3_TEST_2022_FASTA = DIR_DATASETS +'task3/test_2022.fasta'
+FILE_TASK3_TRAIN_FASTA = DIR_DATASETS +'task3\\train.fasta'
+FILE_TASK3_TEST_2019_FASTA = DIR_DATASETS +'task3\\test_2019.fasta'
+FILE_TASK3_TEST_2020_FASTA = DIR_DATASETS +'task3\\test_2020.fasta'
+FILE_TASK3_TEST_2021_FASTA = DIR_DATASETS +'task3\\test_2021.fasta'
+FILE_TASK3_TEST_2022_FASTA = DIR_DATASETS +'task3\\test_2022.fasta'
 
 
 
@@ -109,8 +109,8 @@ FILE_BLAST_PRODUCTION_FASTA = DATADIR + 'production_blast.fasta' # 生产环境�
 FILE_TRANSFER_DICT = DATADIR + 'ec_transfer_dict.npy'
 
 
-ISENZYME_MODEL = MODELDIR+'/isenzyme.model'
-HOWMANY_MODEL = MODELDIR+'/howmany_enzyme.model'
+ISENZYME_MODEL = MODELDIR+'\\isenzyme.model'
+HOWMANY_MODEL = MODELDIR+'\\howmany_enzyme.model'
 
 
 FILE_BLAST_RESULTS = RESULTSDIR + r'test_blast_res.tsv'
@@ -120,10 +120,10 @@ FILE_SLICE_ISENZYME_RESULTS = RESULTSDIR + 'isEnzyme_slice_results.tsv'
 
 FILE_SLICE_RESULTS = RESULTSDIR + 'slice_results.txt'
 FILE_INTE_RESULTS  =   RESULTSDIR+'slice_pred.tsv'
-FILE_DEEPEC_RESULTS = RESULTSDIR + r'deepec/DeepEC_Result.txt'
-FILE_ECPRED_RESULTS = RESULTSDIR + r'ecpred/ecpred.tsv'
+FILE_DEEPEC_RESULTS = RESULTSDIR + r'deepec\\DeepEC_Result.txt'
+FILE_ECPRED_RESULTS = RESULTSDIR + r'ecpred\\ecpred.tsv'
 FILE_CATFAM_RESULTS = RESULTSDIR + r'catfam_results.output'
-FILE_PRIAM_RESULTS = RESULTSDIR + R'priam/PRIAM_20210819134344/ANNOTATION/sequenceECs.txt'
+FILE_PRIAM_RESULTS = RESULTSDIR + R'priam\\PRIAM_20210819134344/ANNOTATION/sequenceECs.txt'
 
 FILE_EVL_RESULTS = RESULTSDIR + r'evaluation_table.xlsx'
 
